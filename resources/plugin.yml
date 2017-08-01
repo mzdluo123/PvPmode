@@ -1,0 +1,18 @@
+name: Pvpmode
+main: com.luo123.nkplugin.pvpmode.Main
+version: 0.0.1
+author: luo123
+api: ["1.0.0"]
+load: POSTWORLD
+
+commands:
+   pvpm:
+      description: 开关pvp
+      usage: /pvpm
+      permission: Pvpmode.pvpm
+      permission-message: You don't have <permission>
+
+permissions:
+  Pvpmode.pvpm:
+    description: "pvp开关权限"
+    default: true
