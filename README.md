@@ -7,6 +7,6 @@ when you enter server,you pvp mode will be setted to off.
 /pvpm ： change pvpmode
 
 # api:
-public static boolean getPvpmode(String playername) 
-public static void setPvpmode(String playername, boolean playerpvpmode)
+public static boolean getPvpmode(String playername) </br>
+public static void setPvpmode(String playername, boolean playerpvpmode)</br>
 public static boolean isexist(String playername) 
